@@ -58,3 +58,36 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true,
 });
+
+/*================================= Read More Toggle ===================================*/
+document.addEventListener("DOMContentLoaded", function () {
+    var shortText = document.getElementById("shortText");
+    var fullText = document.getElementById("fullText");
+    var toggleBtn = document.getElementById("toggleBtn");
+
+    toggleBtn.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevents page from refreshing or jumping
+
+        if (fullText.style.display === "none" || fullText.style.display === "") {
+            shortText.style.display = "none";
+            fullText.style.display = "block";
+            toggleBtn.textContent = "Read Less";
+        } else {
+            shortText.style.display = "block";
+            fullText.style.display = "none";
+            toggleBtn.textContent = "Read More";
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+

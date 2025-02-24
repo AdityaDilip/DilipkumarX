@@ -657,6 +657,11 @@ span {
 
 
 
+
+
+
+
+
 /* have a question section */
 
 .question-section {
@@ -696,3 +701,81 @@ span {
 
 
 
+
+
+/* For Education section   */
+
+
+.education {
+    background: #111;
+    color: #fff;
+    padding: 30px 15%;
+    text-align: center;
+}
+
+.education .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.education-box {
+    background: #222;
+    padding: 40px;
+    border-radius: 10px;
+    width: 46%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 193, 7, 0.3);
+    
+}
+
+.education-box h3 {
+    color: #ffc107;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.education-box h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.education-box p {
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+.education-box span {
+    display: block;
+    font-size: 1.1rem;
+    color: #bbb;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
