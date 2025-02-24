@@ -720,22 +720,22 @@ span {
     padding-bottom: 5px;
 }
 
-/* Flexbox for layout */
+/* Flexbox layout */
 .education-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; /* Reduced gap for better spacing */
+    gap: 40px; /* Increased gap for better spacing */
 }
 
 /* Box Styling */
 .education-box {
     background: #222;
-    padding: 30px;
-    border-radius: 10px;
-    width: 45%;
+    padding: 40px;
+    border-radius: 12px;
+    width: 48%;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(255, 193, 7, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -745,68 +745,60 @@ span {
 
 .education-box h3 {
     color: #ffc107;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .education-box h2 {
-    font-size: 1.6rem;
-    margin: 10px 0;
+    font-size: 1.9rem;
+    margin: 12px 0;
 }
 
 .education-box p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #ccc;
 }
 
 .education-box span {
     display: block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #bbb;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .education-container {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
         align-items: center;
     }
 
     .education-box {
-        width: 90%; /* Make each box full-width on mobile */
-        padding: 20px; /* Reduce padding for better fit */
+        width: 95%; /* Increased box size for better visibility */
+        padding: 50px; /* More padding for spacious look */
+        border-radius: 15px; /* Smoother edges */
     }
 
     .education .heading {
-        font-size: 2rem; /* Adjust heading size */
+        font-size: 2.2rem; /* Slightly bigger heading */
     }
 
     .education-box h3 {
-        font-size: 1.6rem;
+        font-size: 2.2rem; /* Larger font */
     }
 
     .education-box h2 {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     .education-box p {
-        font-size: 1.1rem;
+        font-size: 1.5rem; /* Bigger text for readability */
+    }
+
+    .education-box span {
+        font-size: 1.3rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .hidden {
     display: none;
